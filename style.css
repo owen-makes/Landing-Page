@@ -60,12 +60,38 @@ body {
     padding: 0px;
     margin: 0%;
     box-sizing: border-box;
+    background-color: #f2f2f240;
 }  
 
+.quote-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-right: 10px;
+
+}
+.quote{
+    font-size: 100px;
+    font-weight: 600;
+    text-align: left;
+    margin: 30px 0px;
+}
+
+p{
+    font-size: 20px;
+    color:#f2f2f2;
+    text-align: right;
+    font-weight: 300;
+}
+
+
+
 footer{
-    margin-top: 100%;
+    background-color: #f2f2f240;    
     margin-bottom: 0px;
     padding: 0px;
+    border-style: border-box;
+    height: 30px;
 }
 
 .footer-wrapper{
@@ -75,7 +101,8 @@ footer{
     justify-content: center;
     align-items: center;
     gap: 5px;
-    align-self: flex-end;
+    margin-top: auto;
+
 }
 
 a{
@@ -95,3 +122,4 @@ a:hover{
     font-size: 12px;
 
 }
+
