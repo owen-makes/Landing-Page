@@ -6,6 +6,10 @@ body{
     background-size: cover;
 }
 
+html{
+    padding: 0px;
+    margin: 0px;
+}
 
 li{
     list-style: none;
@@ -48,3 +52,46 @@ body {
     margin:0;
     padding:0;
   }
+
+.content-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0px;
+    margin: 0%;
+    box-sizing: border-box;
+}  
+
+footer{
+    margin-top: 100%;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+.footer-wrapper{
+    background-color: #f2f2f2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    align-self: flex-end;
+}
+
+a{
+    text-decoration: none;
+    display: inline;
+    color: #222222;
+}
+
+a:hover{
+    color: #22222280;
+}
+.footer-wrapper > a {
+    font-size: 12px;
+}
+
+#firma{
+    font-size: 12px;
+
+}
