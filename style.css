@@ -28,6 +28,8 @@ li{
     align-items: center;
     padding-left: 0px;
     margin: 0px;
+    align-self: center;
+    flex-wrap: wrap;
 }
 
 img{
@@ -41,17 +43,18 @@ img{
 .header{
    background-color: #f2f2f2;
    margin: 0px;
+   padding-bottom: 7px;
 }
 
 .header-wrapper{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
-    height: 25px;
+    padding: 13px 20px;
+    height: 30px;
     flex-wrap: wrap;
     background-color: #f2f2f2;
-    flex-grow: 1;
+    row-gap: 8px;
 }
 body {
     margin:0;
@@ -77,6 +80,7 @@ body {
 
 }
 
+/* Responsive Text for Quotes */
 @media screen and (min-width: 601px) {
     p.quote {
       font-size: 100px;
@@ -88,6 +92,7 @@ body {
       font-size: 50px;
     }
   }
+/**/
 
 .quote{
     font-size: 100px;
