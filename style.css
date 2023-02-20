@@ -4,6 +4,10 @@ body{
     color: #222222;
     background-color: #f2f2f2;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-height: 100vh;
 }
 
 html{
@@ -47,6 +51,7 @@ img{
     height: 25px;
     flex-wrap: wrap;
     background-color: #f2f2f2;
+    flex-grow: 0;
 }
 body {
     margin:0;
@@ -60,7 +65,8 @@ body {
     padding: 0px;
     margin: 0%;
     box-sizing: border-box;
-    background-color: #f2f2f240;
+    background-color: #f2f2f230;
+    flex-grow: 5;
 }  
 
 .quote-container{
@@ -82,6 +88,7 @@ p{
     color:#f2f2f2;
     text-align: right;
     font-weight: 300;
+    margin-bottom: 70px;
 }
 
 
@@ -91,7 +98,12 @@ footer{
     margin-bottom: 0px;
     padding: 0px;
     border-style: border-box;
-    height: 30px;
+    height: 20px;
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 0;
 }
 
 .footer-wrapper{
@@ -102,7 +114,7 @@ footer{
     align-items: center;
     gap: 5px;
     margin-top: auto;
-
+    padding: 8px;
 }
 
 a{
@@ -114,12 +126,15 @@ a{
 a:hover{
     color: #22222280;
 }
+
 .footer-wrapper > a {
     font-size: 12px;
+    margin: 0px;
 }
 
 #firma{
     font-size: 12px;
+    margin: 0px;
 
 }
 
