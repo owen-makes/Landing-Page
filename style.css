@@ -29,7 +29,7 @@ li{
     padding-left: 0px;
     margin: 0px;
     align-self: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 img{
